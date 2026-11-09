@@ -1,0 +1,483 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#164caa">
+  <title>Чистовье — всё для индустрии красоты</title>
+  <meta name="description" content="Профессиональные расходные материалы, косметика и средства для индустрии красоты.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="topline">
+    <div class="container topline-inner">
+      <span>Профессиональные решения для индустрии красоты</span>
+      <div>
+        <span>Астрахань</span>
+        <a href="tel:+78512436577">+7 (8512) 43-65-77</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-main">
+      <a href="#" class="logo">
+        <span class="logo-symbol">Ч</span>
+        <span class="logo-text">
+          <strong>ЧИСТОВЬЕ</strong>
+          <small>ВСЁ ДЛЯ ИНДУСТРИИ КРАСОТЫ</small>
+        </span>
+      </a>
+
+      <button class="catalog-btn" id="catalogBtn">
+        <span>☰</span> Каталог
+      </button>
+
+      <form class="search" id="searchForm">
+        <input type="search" id="searchInput" placeholder="Найти товар, бренд или категорию...">
+        <button type="submit">Найти</button>
+      </form>
+
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Избранное">♡</button>
+        <button class="icon-btn cart-btn" aria-label="Корзина">
+          ♧ <span class="cart-count" id="cartCount">0</span>
+        </button>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="nav" id="nav">
+      <div class="container nav-inner">
+        <a href="#categories">Каталог товаров</a>
+        <a href="#products">Хиты продаж</a>
+        <a href="#advantages">О компании</a>
+        <a href="#brands">Бренды</a>
+        <a href="#news">Новости</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            НАДЁЖНЫЙ ПОСТАВЩИК ДЛЯ ПРОФЕССИОНАЛОВ
+          </div>
+
+          <h1>
+            Всё необходимое
+            <span>для вашей</span>
+            <span class="blue-text">индустрии красоты</span>
+          </h1>
+
+          <p>
+            Профессиональная косметика, расходные материалы
+            и средства гигиены для салонов, клиник и студий.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#categories" class="btn btn-primary">
+              Перейти в каталог <span>↗</span>
+            </a>
+            <a href="#advantages" class="btn btn-outline">
+              О компании
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>2000+</strong>
+              <span>товаров в ассортименте</span>
+            </div>
+            <div>
+              <strong>10+ лет</strong>
+              <span>опыта в индустрии</span>
+            </div>
+            <div>
+              <strong>24/7</strong>
+              <span>доступ к каталогу</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-glow"></div>
+          <div class="hero-image">
+            <img
+              src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1100&q=90"
+              alt="Профессиональная косметика"
+            >
+          </div>
+          <div class="floating-card floating-top">
+            <span class="floating-icon">✦</span>
+            <div>
+              <strong>Качество</strong>
+              <small>Проверенная продукция</small>
+            </div>
+          </div>
+          <div class="floating-card floating-bottom">
+            <span class="delivery-icon">↗</span>
+            <div>
+              <strong>Быстрая доставка</strong>
+              <small>По Астрахани и России</small>
+            </div>
+          </div>
+          <div class="hero-number">01 / 04</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DELIVERY STRIP -->
+    <section class="delivery-strip">
+      <div class="container delivery-inner">
+        <div class="delivery-symbol">↗</div>
+        <div>
+          <strong>Бесплатная экспресс-доставка</strong>
+          <span>При заказе от 1 500 ₽ по условиям магазина</span>
+        </div>
+        <a href="https://chistovie30.ru/" target="_blank">Подробнее о доставке ↗</a>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section categories-section" id="categories">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">НАШ АССОРТИМЕНТ</span>
+            <h2>Всё для вашей работы</h2>
+            <p>Подбирайте профессиональные товары в одном месте</p>
+          </div>
+          <a href="https://chistovie30.ru/shop/" class="text-link" target="_blank">
+            Весь каталог <span>↗</span>
+          </a>
+        </div>
+
+        <div class="categories-grid">
+          <a class="category-card category-large" href="https://chistovie30.ru/product-category/rashodnye-materialy/">
+            <div class="category-info">
+              <span>01</span>
+              <h3>Расходные<br>материалы</h3>
+              <small>Для ежедневной работы</small>
+            </div>
+            <img src="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=700&q=85" alt="">
+            <span class="category-arrow">↗</span>
+          </a>
+
+          <a class="category-card" href="https://chistovie30.ru/product-category/dlja-kosmetologii/">
+            <div class="category-info">
+              <span>02</span>
+              <h3>Для косметологии</h3>
+              <small>Профессиональный уход</small>
+            </div>
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=85" alt="">
+            <span class="category-arrow">↗</span>
+          </a>
+
+          <a class="category-card" href="https://chistovie30.ru/product-category/dlja-dezinfekcii-i-sterilizacii/">
+            <div class="category-info">
+              <span>03</span>
+              <h3>Дезинфекция<br>и стерилизация</h3>
+              <small>Чистота и безопасность</small>
+            </div>
+            <img src="https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&w=600&q=85" alt="">
+            <span class="category-arrow">↗</span>
+          </a>
+
+          <a class="category-card" href="https://chistovie30.ru/shop/">
+            <div class="category-info">
+              <span>04</span>
+              <h3>Для СПА и массажа</h3>
+              <small>Релакс и уход</small>
+            </div>
+            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=85" alt="">
+            <span class="category-arrow">↗</span>
+          </a>
+
+          <a class="category-card" href="https://chistovie30.ru/shop/">
+            <div class="category-info">
+              <span>05</span>
+              <h3>Для маникюра<br>и педикюра</h3>
+              <small>Всё для мастеров</small>
+            </div>
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&q=85" alt="">
+            <span class="category-arrow">↗</span>
+          </a>
+
+          <a class="category-card category-wide" href="https://chistovie30.ru/shop/">
+            <div class="category-info">
+              <span>06</span>
+              <h3>Профессиональная<br>косметика</h3>
+              <small>Уход, красота и результат</small>
+            </div>
+            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=85" alt="">
+            <span class="category-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="section products-section" id="products">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">ВЫБОР ПОКУПАТЕЛЕЙ</span>
+            <h2>Популярные товары</h2>
+            <p>То, что профессионалы выбирают каждый день</p>
+          </div>
+          <a href="https://chistovie30.ru/shop/" class="text-link" target="_blank">
+            Смотреть всё <span>↗</span>
+          </a>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+          <article class="product-card" data-name="перчатки нитриловые голубые">
+            <div class="product-image">
+              <span class="product-tag">ПОПУЛЯРНОЕ</span>
+              <img src="https://images.unsplash.com/photo-1584744982491-665216d95f8b?auto=format&fit=crop&w=600&q=85" alt="Перчатки">
+              <button class="favorite-btn" aria-label="В избранное">♡</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">РАСХОДНЫЕ МАТЕРИАЛЫ</span>
+              <h3>Перчатки нитриловые голубые, 100 шт.</h3>
+              <div class="product-bottom">
+                <strong>420 ₽</strong>
+                <button class="add-btn">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-name="спрей для быстрой дезинфекции чистодез">
+            <div class="product-image">
+              <span class="product-tag tag-blue">ХИТ</span>
+              <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=85" alt="Спрей">
+              <button class="favorite-btn" aria-label="В избранное">♡</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">ДЕЗИНФЕКЦИЯ</span>
+              <h3>Спрей для быстрой дезинфекции Чистодез, 750 мл</h3>
+              <div class="product-bottom">
+                <strong>402 ₽</strong>
+                <button class="add-btn">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-name="бахилы гладкие">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=600&q=85" alt="Расходные материалы">
+              <button class="favorite-btn" aria-label="В избранное">♡</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">ГИГИЕНА</span>
+              <h3>Бахилы гладкие, 100 шт.</h3>
+              <div class="product-bottom">
+                <strong>от 125 ₽</strong>
+                <button class="add-btn">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-name="простыня sms стандарт рулон">
+            <div class="product-image">
+              <span class="product-tag">ХИТ ПРОДАЖ</span>
+              <img src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=600&q=85" alt="Простыня">
+              <button class="favorite-btn" aria-label="В избранное">♡</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">РАСХОДНЫЕ МАТЕРИАЛЫ</span>
+              <h3>Простыня SMS Стандарт, рулон с перфорацией</h3>
+              <div class="product-bottom">
+                <strong>от 910 ₽</strong>
+                <button class="add-btn">+</button>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="demo-note">Товары и цены приведены для демонстрации концепции. Фотографии — временные иллюстрации, не фотографии оригинальных упаковок.</p>
+      </div>
+    </section>
+
+    <!-- PROMO -->
+    <section class="promo-section">
+      <div class="container">
+        <div class="promo">
+          <div class="promo-content">
+            <span class="section-label">ЧИСТОВЬЕ — ВАШ НАДЁЖНЫЙ ПАРТНЁР</span>
+            <h2>Ваша работа.<br><span>Наше обеспечение.</span></h2>
+            <p>Помогаем салонам красоты, студиям и специалистам находить всё необходимое для профессиональной работы.</p>
+            <a href="https://chistovie30.ru/shop/" class="btn btn-white" target="_blank">
+              Выбрать товары <span>↗</span>
+            </a>
+          </div>
+          <div class="promo-decoration">
+            <div class="promo-circle circle-one"></div>
+            <div class="promo-circle circle-two"></div>
+            <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=90" alt="Профессиональная косметика">
+          </div>
+          <span class="promo-mark">Ч.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADVANTAGES -->
+    <section class="section advantages-section" id="advantages">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">ПОЧЕМУ МЫ</span>
+            <h2>Больше, чем просто магазин</h2>
+            <p>Создаём комфортные условия для профессионалов</p>
+          </div>
+        </div>
+
+        <div class="advantages-grid">
+          <div class="advantage-card">
+            <span class="advantage-icon">✦</span>
+            <h3>Широкий ассортимент</h3>
+            <p>Более 2000 наименований товаров для индустрии красоты и здоровья.</p>
+            <span class="advantage-number">01</span>
+          </div>
+          <div class="advantage-card">
+            <span class="advantage-icon">↗</span>
+            <h3>Быстрая доставка</h3>
+            <p>Оперативная доставка по Астрахани и выгодные условия отправки по России.</p>
+            <span class="advantage-number">02</span>
+          </div>
+          <div class="advantage-card">
+            <span class="advantage-icon">✓</span>
+            <h3>Качество и документы</h3>
+            <p>Сертифицированная продукция и необходимые документы на товары.</p>
+            <span class="advantage-number">03</span>
+          </div>
+          <div class="advantage-card">
+            <span class="advantage-icon">♡</span>
+            <h3>Помощь в выборе</h3>
+            <p>Консультации и помощь в подборе продукции под задачи вашего бизнеса.</p>
+            <span class="advantage-number">04</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRANDS -->
+    <section class="brands-section" id="brands">
+      <div class="container">
+        <div class="brands-heading">
+          <span class="section-label">НАШИ ПАРТНЁРЫ</span>
+          <h2>Бренды, которым доверяют</h2>
+        </div>
+        <div class="brands-list">
+          <span>GEHWOL</span>
+          <span>spaquatoria</span>
+          <span>ЧИСТОВЬЕ</span>
+          <span>VERANA</span>
+          <span>UCANDLES</span>
+          <span>SKINOSOPHY</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="section news-section" id="news">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">БУДЬТЕ В КУРСЕ</span>
+            <h2>Новости и события</h2>
+            <p>Полезная информация для специалистов</p>
+          </div>
+          <a href="https://chistovie30.ru/" class="text-link" target="_blank">Все новости ↗</a>
+        </div>
+
+        <div class="news-grid">
+          <a href="https://chistovie30.ru/" class="news-card" target="_blank">
+            <img src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=800&q=85" alt="">
+            <div class="news-info">
+              <span>НОВОСТИ</span>
+              <h3>Персональные скидки и специальные условия для профессионалов</h3>
+              <div>Читать подробнее ↗</div>
+            </div>
+          </a>
+          <a href="https://chistovie30.ru/" class="news-card" target="_blank">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=85" alt="">
+            <div class="news-info">
+              <span>ОБУЧЕНИЕ</span>
+              <h3>Семинары и мероприятия для специалистов индустрии красоты</h3>
+              <div>Читать подробнее ↗</div>
+            </div>
+          </a>
+          <a href="https://chistovie30.ru/" class="news-card" target="_blank">
+            <img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=800&q=85" alt="">
+            <div class="news-info">
+              <span>ПОЛЕЗНОЕ</span>
+              <h3>Как подобрать профессиональные средства для работы</h3>
+              <div>Читать подробнее ↗</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="contact-section" id="contacts">
+      <div class="container contact-inner">
+        <div>
+          <span class="section-label">МЫ НА СВЯЗИ</span>
+          <h2>Поможем найти<br>то, что нужно</h2>
+          <p>Остались вопросы? Свяжитесь с нами — поможем с выбором и заказом.</p>
+        </div>
+        <div class="contact-details">
+          <span>ПОЗВОНИТЕ НАМ</span>
+          <a href="tel:+78512436577">+7 (8512) 43-65-77</a>
+          <a href="tel:+79275776577">+7 (927) 577-6-577</a>
+          <small>Пн–Пт: 10:00–18:00 · Сб: 10:00–14:00</small>
+        </div>
+        <a href="tel:+79275776577" class="contact-button">Связаться ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top">
+      <a href="#" class="logo footer-logo">
+        <span class="logo-symbol">Ч</span>
+        <span class="logo-text">
+          <strong>ЧИСТОВЬЕ</strong>
+          <small>ВСЁ ДЛЯ ИНДУСТРИИ КРАСОТЫ</small>
+        </span>
+      </a>
+      <p>Профессиональные решения<br>для вашего бизнеса.</p>
+      <div class="footer-links">
+        <a href="#categories">Каталог</a>
+        <a href="#advantages">О компании</a>
+        <a href="#brands">Бренды</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Чистовье-Астрахань</span>
+      <span>Концепт обновлённого сайта</span>
+      <a href="https://chistovie30.ru/">Текущий магазин ↗</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">Товар добавлен в корзину</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
